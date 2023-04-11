@@ -1,2047 +1,2309 @@
-{
-	"id": "c6eb24a7-b3c6-48df-825c-e97c7d9a4a3e",
-	"name": "everve",
-	"nodes": [
-		{
-			"id": "5f3bb924-13ca-4ebb-8f52-185fd7003531",
-			"name": "twitter",
-			"nodes": [],
-			"locators": [
-				{
-					"id": "f6a66678-eee0-4344-8ca3-8d723b343178",
-					"name": "span_your_account_is_suspended_and_is_not_permitted_to_follow_us",
-					"filePath": "01240835-5e29-45ed-bc22-efb03fdbf34f.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(1) AI Punks (@AIPunksNFTs) / Twitter"
-									},
-									"url": {
-										"value": "https://twitter.com/AIPunksNFTs",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "SPAN"
-											},
-											"class": {
-												"value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
-												"excluded": true
-											},
-											"ancestorId": {
-												"value": "layers"
-											},
-											"ancestorClass": {
-												"value": "css-901oao r-jwli3a r-1wbh5a2 r-1qd0xha r-a023e6 r-16dba41 r-rji*"
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>div>div>div>div>div>div>span",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Your account is suspended and is not permitted to follow users.",
-												"excluded": true
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "81736f76-fce1-4973-ba85-5f77052d2f84",
-					"name": "button_following",
-					"filePath": "c494f2f6-8c6c-4dbc-a333-531040fe994a.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(2) Nananatu Tomo (@nananatutoFX) / Twitter"
-									},
-									"url": {
-										"value": "https://twitter.com/nananatutoFX",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "DIV"
-											},
-											"class": {
-												"value": "css-1dbjc4n r-6gpygo"
-											},
-											"ancestorId": {
-												"value": "react-root"
-											},
-											"ancestorClass": {
-												"value": "css-1dbjc4n",
-												"excluded": true
-											},
-											"isLeaf": {
-												"value": "0",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
-												"excluded": true
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											},
-											"style": {
-												"isCustom": true,
-												"value": "min-width: 104px;",
-												"operator": "equals",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "e02b6688-9dc9-48cf-9cc0-a1bffe5e457d",
-					"name": "button_follow_main",
-					"filePath": "d708e17d-c88a-441e-a19d-a4da32445d32.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(2) Josh Norris (@norris_josh_the) / Twitter"
-									},
-									"url": {
-										"value": "https://twitter.com/norris_josh_the",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "SPAN"
-											},
-											"class": {
-												"value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
-												"excluded": true
-											},
-											"ancestorId": {
-												"value": "react-root",
-												"excluded": true
-											},
-											"ancestorClass": {
-												"value": "css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-a023e6 r-rjixqe r-*"
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Follow"
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "7b775f0c-2ee1-401f-bdbd-24340e39e366",
-					"name": "span_yes_view_profile",
-					"filePath": "0472cbe4-44b1-4ab7-9c83-05802f2b7e00.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(2) Keyan Van Doom (@KeyanVanDoom) / Twitter"
-									},
-									"url": {
-										"value": "https://twitter.com/keyanvandoom",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "SPAN"
-											},
-											"class": {
-												"value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
-												"excluded": true
-											},
-											"ancestorId": {
-												"value": "react-root",
-												"excluded": true
-											},
-											"ancestorClass": {
-												"value": "css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-1inkyih r-rjixqe r-bcqeeo r-qvutc0",
-												"excluded": true
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Yes, view profile"
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				}
-			]
-		},
-		{
-			"id": "a521ab9a-3ac7-4c26-ab34-cd552bb542d7",
-			"name": "tiktok",
-			"nodes": [],
-			"locators": [
-				{
-					"id": "8958515c-dc83-4b77-9398-29813a1b81b8",
-					"name": "not_found_user",
-					"filePath": "42e1bd38-1380-44a9-8365-6d61a34d75fc.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "https://www.tiktok.com/@tiktok.com/chrisharouny/"
-									},
-									"url": {
-										"value": "https://www.tiktok.com/@tiktok.com/chrisharouny/",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "PRE"
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>pre",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Not Found",
-												"excluded": true
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											},
-											"style": {
-												"isCustom": true,
-												"value": "word-wrap: break-word; white-space: pre-wrap;",
-												"operator": "equals",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "84bc731d-358f-433d-9283-31e1e25f820f",
-					"name": "button_follow_main",
-					"filePath": "370f2505-4e35-411e-897e-8d9c696b7440.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(3)DHAM (@dham.3) | TikTok"
-									},
-									"url": {
-										"value": "https://www.tiktok.com/@dham.3/",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "BUTTON"
-											},
-											"class": {
-												"value": "e18e4obn5 tiktok-1co44lm-Button-StyledFollowButton ehk74z00",
-												"excluded": true
-											},
-											"type": {
-												"value": "button"
-											},
-											"ancestorId": {
-												"value": "main-content-others_homepage",
-												"excluded": true
-											},
-											"ancestorClass": {
-												"value": "tiktok-1h3j14u-DivFollowButtonWrapper e18e4obn4",
-												"excluded": true
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>div>div>div>div>div>button",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Follow"
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											},
-											"data-e2e": {
-												"isCustom": true,
-												"value": "follow-button",
-												"operator": "equals",
-												"excluded": true
-											},
-											"aria-label": {
-												"isCustom": true,
-												"value": "Follow DHAM",
-												"operator": "equals",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "fb2a5c73-d688-4096-99c3-879b455ecd86",
-					"name": "button_following",
-					"filePath": "8387fe08-531c-4018-83d0-e20df07f9acc.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "DHAM (@dham.3) | TikTok"
-									},
-									"url": {
-										"value": "https://www.tiktok.com/@dham.3/",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "BUTTON"
-											},
-											"class": {
-												"value": "e18e4obn3 tiktok-i06nrq-Button-StyledMessageButton ehk74z00",
-												"excluded": true
-											},
-											"type": {
-												"value": "button"
-											},
-											"ancestorId": {
-												"value": "main-content-others_homepage",
-												"excluded": true
-											},
-											"ancestorClass": {
-												"value": "tiktok-22xkqc-StyledLink er1vbsz0",
-												"excluded": true
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>div>div>div>div>div>a>button",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Messages"
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											}
-										}
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"id": "7b66259b-78ca-47f6-b830-65397ccbc439",
-					"name": "button_follow",
-					"filePath": "41f01910-0f65-43c1-9f8c-2cba63a849cf.jpg",
-					"content": {
-						"automationType": "Chrome",
-						"processName": {
-							"value": "chrome"
-						},
-						"filePath": {
-							"value": "chrome.exe"
-						},
-						"version": {
-							"value": "1.3"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"role": {
-										"value": "window"
-									},
-									"title": {
-										"value": "(5)Fellustosa (@fellustosa) | TikTok"
-									},
-									"url": {
-										"value": "https://www.tiktok.com/@fellustosa/",
-										"excluded": true
-									},
-									"className": {
-										"value": "Chrome_WidgetWin_1"
-									},
-									"controlMetaType": "Tab"
-								},
-								"childControls": [
-									{
-										"identifier": {
-											"tag": {
-												"value": "BUTTON"
-											},
-											"class": {
-												"value": "e18e4obn5 tiktok-1co44lm-Button-StyledFollowButton ehk74z00",
-												"excluded": true
-											},
-											"type": {
-												"value": "button"
-											},
-											"ancestorId": {
-												"value": "main-content-others_homepage",
-												"excluded": true
-											},
-											"ancestorClass": {
-												"value": "tiktok-1h3j14u-DivFollowButtonWrapper e18e4obn4",
-												"excluded": true
-											},
-											"isLeaf": {
-												"value": "1",
-												"excluded": true
-											},
-											"cssSelector": {
-												"value": "body>div>div>div>div>div>div>div>div>div>button",
-												"excluded": true
-											},
-											"sInfo": {
-												"value": "Follow?Messages",
-												"operator": "regex"
-											},
-											"tableRow": {
-												"value": "-1",
-												"excluded": true
-											},
-											"tableCol": {
-												"value": "-1",
-												"excluded": true
-											},
-											"controlMetaType": "Web",
-											"index": {
-												"value": "1",
-												"excluded": true
-											},
-											"data-e2e": {
-												"isCustom": true,
-												"value": "follow-button",
-												"operator": "equals",
-												"excluded": true
-											},
-											"aria-label": {
-												"isCustom": true,
-												"value": "Follow Fellustosa",
-												"operator": "equals",
-												"excluded": true
-											}
-										},
-										"childControls": [],
-										"excluded": false
-									}
-								],
-								"excluded": false
-							}
-						],
-						"parameters": {
-							"excluded": true,
-							"operator": "equals",
-							"value": ""
-						}
-					}
-				}
-			]
-		}
-	],
-	"locators": [
-		{
-			"id": "d1a2c614-346b-40c6-bbf7-ad5dbff9edba",
-			"name": "menu_open_perform_tasks",
-			"filePath": "ed3f5980-3338-4fbc-b63d-5a8715ae558b.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Dashboard"
-							},
-							"url": {
-								"value": "https://everve.net/dashboard/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "svg"
-									},
-									"class": {
-										"value": "nav__submenu-svg"
-									},
-									"ancestorClass": {
-										"value": "nav__submenu-btn user_menu_item",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>nav>div>div>div>a>svg",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"width": {
-										"isCustom": true,
-										"value": "10",
-										"operator": "equals",
-										"excluded": true
-									},
-									"height": {
-										"isCustom": true,
-										"value": "6",
-										"operator": "equals",
-										"excluded": true
-									},
-									"viewBox": {
-										"isCustom": true,
-										"value": "0 0 10 6",
-										"operator": "equals",
-										"excluded": true
-									},
-									"xmlns": {
-										"isCustom": true,
-										"value": "http://www.w3.org/2000/svg",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "098942f9-4c2d-412e-992b-958f12346420",
-			"name": "menu_close_perform_tasks",
-			"filePath": "2e862550-95b8-4774-abc8-4708c4a4bfff.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Dashboard"
-							},
-							"url": {
-								"value": "https://everve.net/dashboard/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "svg"
-									},
-									"class": {
-										"value": "nav__submenu-svg"
-									},
-									"ancestorClass": {
-										"value": "nav__submenu-btn user_menu_item collapsed",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>nav>div>div>div>a>svg",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"width": {
-										"isCustom": true,
-										"value": "10",
-										"operator": "equals",
-										"excluded": true
-									},
-									"height": {
-										"isCustom": true,
-										"value": "6",
-										"operator": "equals",
-										"excluded": true
-									},
-									"viewBox": {
-										"isCustom": true,
-										"value": "0 0 10 6",
-										"operator": "equals",
-										"excluded": true
-									},
-									"xmlns": {
-										"isCustom": true,
-										"value": "http://www.w3.org/2000/svg",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "041fdb2b-b818-4634-b293-94572ea0de0a",
-			"name": "menu_tiktok_followers",
-			"filePath": "8eff0846-e246-402f-a881-a424be9e199d.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Dashboard"
-							},
-							"url": {
-								"value": "https://everve.net/dashboard/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "A"
-									},
-									"class": {
-										"value": "nav__link ",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "task"
-									},
-									"ancestorClass": {
-										"value": "nav__submenu collapse show",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>nav>div>div>div>div>a",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "TikTok Followers"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"href": {
-										"value": "https://everve.net/tasks/tiktok-followers/",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "06ff9f7f-ba58-40e0-80b2-d3a8c9d0468d",
-			"name": "menu_twitter_followers",
-			"filePath": "76acba93-e909-45fe-9c7c-b8f458a56eea.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "A"
-									},
-									"class": {
-										"value": "nav__link active",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "task"
-									},
-									"ancestorClass": {
-										"value": "nav__submenu ",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>nav>div>div>div>div>a",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Twitter Followers"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"href": {
-										"value": "https://everve.net/tasks/twitter-followers/",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "35398eae-b35c-4317-b2ff-b3cbc4afa01a",
-			"name": "button_follow_profile_twitter",
-			"filePath": "62296dfd-1ba7-4c6c-b1dd-3222e1c03ae2.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "A"
-									},
-									"class": {
-										"value": "btn btn-xs btn-light",
-										"excluded": false
-									},
-									"ancestorId": {
-										"value": "NUtiVmtrWWNrWk4ydWtZWnkybG1ydz09",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "btn-group",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>table>tbody>tr>td>div>a",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Follow Profile"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"href": {
-										"value": "javascript:;",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "FgiXngHU2k3UXKwBPJOuHTEmAeAhjBQy3rjVEWDgM7fZ0dNdNDT5shMqwhJZX29qy();",
-										"operator": "equals",
-										"excluded": true
-									},
-									"id": {
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "7610bf8f-20e5-4261-9e8f-3af1667f950d",
-			"name": "button_next",
-			"filePath": "414610aa-7f3c-4d04-a8bf-d14b25be6e07.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "btn btn-block btn-light",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "next_button",
-										"excluded": false
-									},
-									"ancestorClass": {
-										"value": "card-body tx-13",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>div>div>div>div>div>div>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Next",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "manual_next_order();",
-										"operator": "equals",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "margin-top: 20px;",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "2491656c-699c-4696-a911-f992e16f8e27",
-			"name": "alert_error_follow_twitter",
-			"filePath": "1446b1c2-e5ea-4687-bad1-de0d2908977e.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "DIV"
-									},
-									"class": {
-										"value": "jq-toast-single jq-has-icon jq-icon-error"
-									},
-									"ancestorClass": {
-										"value": "jq-toast-wrap",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>div",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "You does not completed task",
-										"excluded": true,
-										"operator": "startWith"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "text-align: left;",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "9c38b3e2-3d6e-491a-b741-401238c1a0dd",
-			"name": "alert_success_follow_twitter",
-			"filePath": "59868f81-ce0c-437f-8545-924a0b0064a1.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "DIV"
-									},
-									"class": {
-										"value": "jq-toast-single jq-has-icon jq-icon-success"
-									},
-									"ancestorClass": {
-										"value": "jq-toast-wrap",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>div",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "You have successfully completed task.",
-										"excluded": true,
-										"operator": "startWith"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "text-align: left;",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "7c723ce2-3752-40b5-b774-f36618821e50",
-			"name": "button_next_error",
-			"filePath": "b6ca5f98-6451-490f-b4aa-2a4475c4fb4e.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "btn btn-block btn-light",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "next_report_button",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "btn-group btn-block",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Next"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "manual_next_order();",
-										"operator": "equals",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "margin-top: 8px;",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "85218aad-2975-4975-aff9-e60284f356a3",
-			"name": "status_spinner_border_text_secondary",
-			"filePath": "7e3e86cb-0506-4e7f-8896-480a39aa5f82.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "[22] Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "DIV"
-									},
-									"class": {
-										"value": "spinner-border text-secondary"
-									},
-									"ancestorId": {
-										"value": "perform_preloader"
-									},
-									"ancestorClass": {
-										"value": "text-center",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"role": {
-										"isCustom": true,
-										"value": "status",
-										"operator": "equals",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "margin-top: 20px;margin-bottom: 20px;",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "1c3a5896-f5ef-4382-a012-9a7ad7533d95",
-			"name": "button_follow_profile_tiktok",
-			"filePath": "086936c1-a850-4f67-a140-fa84b55b5e1e.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/tiktok-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "A"
-									},
-									"class": {
-										"value": "btn btn-xs btn-light",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "SU56RUI5VDR1QXhkRFQ5VlpOQXhtdz09",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "btn-group",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>table>tbody>tr>td>div>a",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Follow Profile"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"href": {
-										"value": "javascript:;",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "FZ40qvv2is0ccgpiEepDDukDqMz1gYAvCw0ddPmP2doHxpyl1lirRtJpp3xp5e45s();",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		},
-		{
-			"id": "349fd10c-6a22-492b-bcb2-16d97aaa8443",
-			"name": "button_next_tiktok",
-			"filePath": "54cbf3a9-f566-4cba-8b85-de8efa6733b4.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/tiktok-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "btn btn-block btn-light",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "next_button"
-									},
-									"ancestorClass": {
-										"value": "card-body tx-13",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>div>div>div>div>div>div>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Next",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "manual_next_order();",
-										"operator": "equals",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "margin-top: 20px;",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "daaf345f-c8cf-44ac-9d23-5f77b7fe99e4",
-			"name": "button_next_error_tiktok",
-			"filePath": "71532c0b-c2de-4c31-80dc-6d3c0dfdc546.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/tiktok-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "btn btn-block btn-light",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "next_report_button"
-									},
-									"ancestorClass": {
-										"value": "btn-group btn-block",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Next"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"onclick": {
-										"isCustom": true,
-										"value": "manual_next_order();",
-										"operator": "equals",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "margin-top: 8px;",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "57fac180-82a4-457f-81d3-cdb64f9c69af",
-			"name": "id_follow_twitter",
-			"filePath": "5bdd246f-342f-485e-af1b-5b7fc5a176c8.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "Everve | Perform Tasks"
-							},
-							"url": {
-								"value": "https://everve.net/tasks/twitter-followers/",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "SMALL"
-									},
-									"class": {
-										"value": "tx-12 tx-color-03 mg-b-0",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "WUE1MWZ2VUd6a2NyNGVncVExQm9mdz09",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "pd-l-10",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>main>div>div>div>div>table>tbody>tr>td>ul>li>div>small",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "ID 2558541",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"style": {
-										"isCustom": true,
-										"value": "color: var(--text-color3);",
-										"operator": "equals",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		}
-	]
+﻿{
+  "id": "c6eb24a7-b3c6-48df-825c-e97c7d9a4a3e",
+  "name": "everve",
+  "nodes": [
+    {
+      "id": "5f3bb924-13ca-4ebb-8f52-185fd7003531",
+      "name": "twitter",
+      "nodes": [],
+      "locators": [
+        {
+          "id": "f6a66678-eee0-4344-8ca3-8d723b343178",
+          "name": "span_your_account_is_suspended_and_is_not_permitted_to_follow_us",
+          "filePath": "01240835-5e29-45ed-bc22-efb03fdbf34f.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(1) AI Punks (@AIPunksNFTs) / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/AIPunksNFTs",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "layers"
+                      },
+                      "ancestorClass": {
+                        "value": "css-901oao r-jwli3a r-1wbh5a2 r-1qd0xha r-a023e6 r-16dba41 r-rji*"
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>div>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Your account is suspended and is not permitted to follow users.",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "81736f76-fce1-4973-ba85-5f77052d2f84",
+          "name": "button_following",
+          "filePath": "c494f2f6-8c6c-4dbc-a333-531040fe994a.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(2) Nananatu Tomo (@nananatutoFX) / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/nananatutoFX",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "DIV"
+                      },
+                      "class": {
+                        "value": "css-1dbjc4n r-6gpygo"
+                      },
+                      "ancestorId": {
+                        "value": "react-root"
+                      },
+                      "ancestorClass": {
+                        "value": "css-1dbjc4n",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "0",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "style": {
+                        "isCustom": true,
+                        "value": "min-width: 104px;",
+                        "operator": "equals",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02b6688-9dc9-48cf-9cc0-a1bffe5e457d",
+          "name": "button_follow_main",
+          "filePath": "d708e17d-c88a-441e-a19d-a4da32445d32.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(2) Josh Norris (@norris_josh_the) / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/norris_josh_the",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "react-root",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-a023e6 r-rjixqe r-*"
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Follow"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "7b775f0c-2ee1-401f-bdbd-24340e39e366",
+          "name": "span_yes_view_profile",
+          "filePath": "0472cbe4-44b1-4ab7-9c83-05802f2b7e00.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(2) Keyan Van Doom (@KeyanVanDoom) / Twitter"
+                  },
+                  "url": {
+                    "value": "https://twitter.com/keyanvandoom",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "react-root",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-1inkyih r-rjixqe r-bcqeeo r-qvutc0",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>main>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Yes, view profile"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a521ab9a-3ac7-4c26-ab34-cd552bb542d7",
+      "name": "tiktok",
+      "nodes": [],
+      "locators": [
+        {
+          "id": "8958515c-dc83-4b77-9398-29813a1b81b8",
+          "name": "not_found_user",
+          "filePath": "42e1bd38-1380-44a9-8365-6d61a34d75fc.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "https://www.tiktok.com/@tiktok.com/chrisharouny/"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/@tiktok.com/chrisharouny/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "PRE"
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>pre",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Not Found",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "style": {
+                        "isCustom": true,
+                        "value": "word-wrap: break-word; white-space: pre-wrap;",
+                        "operator": "equals",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "84bc731d-358f-433d-9283-31e1e25f820f",
+          "name": "button_follow_main",
+          "filePath": "370f2505-4e35-411e-897e-8d9c696b7440.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(3)DHAM (@dham.3) | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/@dham.3/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "e18e4obn5 tiktok-1co44lm-Button-StyledFollowButton ehk74z00",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "main-content-others_homepage",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "tiktok-1h3j14u-DivFollowButtonWrapper e18e4obn4",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Follow"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "data-e2e": {
+                        "isCustom": true,
+                        "value": "follow-button",
+                        "operator": "equals",
+                        "excluded": true
+                      },
+                      "aria-label": {
+                        "isCustom": true,
+                        "value": "Follow DHAM",
+                        "operator": "equals",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "fb2a5c73-d688-4096-99c3-879b455ecd86",
+          "name": "button_following",
+          "filePath": "8387fe08-531c-4018-83d0-e20df07f9acc.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "DHAM (@dham.3) | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/@dham.3/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "e18e4obn3 tiktok-i06nrq-Button-StyledMessageButton ehk74z00",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "main-content-others_homepage",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "tiktok-22xkqc-StyledLink er1vbsz0",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>a>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Messages"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "7b66259b-78ca-47f6-b830-65397ccbc439",
+          "name": "button_follow",
+          "filePath": "41f01910-0f65-43c1-9f8c-2cba63a849cf.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "(5)Fellustosa (@fellustosa) | TikTok"
+                  },
+                  "url": {
+                    "value": "https://www.tiktok.com/@fellustosa/",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "BUTTON"
+                      },
+                      "class": {
+                        "value": "e18e4obn5 tiktok-1co44lm-Button-StyledFollowButton ehk74z00",
+                        "excluded": true
+                      },
+                      "type": {
+                        "value": "button"
+                      },
+                      "ancestorId": {
+                        "value": "main-content-others_homepage",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "tiktok-1h3j14u-DivFollowButtonWrapper e18e4obn4",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>div>div>div>div>div>div>div>button",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "Follow?Messages",
+                        "operator": "regex"
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "data-e2e": {
+                        "isCustom": true,
+                        "value": "follow-button",
+                        "operator": "equals",
+                        "excluded": true
+                      },
+                      "aria-label": {
+                        "isCustom": true,
+                        "value": "Follow Fellustosa",
+                        "operator": "equals",
+                        "excluded": true
+                      }
+                    },
+                    "childControls": [],
+                    "excluded": false
+                  }
+                ],
+                "excluded": false
+              }
+            ],
+            "parameters": {
+              "excluded": true,
+              "operator": "equals",
+              "value": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "locators": [
+    {
+      "id": "d1a2c614-346b-40c6-bbf7-ad5dbff9edba",
+      "name": "menu_open_perform_tasks",
+      "filePath": "ed3f5980-3338-4fbc-b63d-5a8715ae558b.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Dashboard"
+              },
+              "url": {
+                "value": "https://everve.net/dashboard/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "svg"
+                  },
+                  "class": {
+                    "value": "nav__submenu-svg"
+                  },
+                  "ancestorClass": {
+                    "value": "nav__submenu-btn user_menu_item",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>nav>div>div>div>a>svg",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "width": {
+                    "isCustom": true,
+                    "value": "10",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "height": {
+                    "isCustom": true,
+                    "value": "6",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "viewBox": {
+                    "isCustom": true,
+                    "value": "0 0 10 6",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "xmlns": {
+                    "isCustom": true,
+                    "value": "http://www.w3.org/2000/svg",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "098942f9-4c2d-412e-992b-958f12346420",
+      "name": "menu_close_perform_tasks",
+      "filePath": "2e862550-95b8-4774-abc8-4708c4a4bfff.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Dashboard"
+              },
+              "url": {
+                "value": "https://everve.net/dashboard/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "svg"
+                  },
+                  "class": {
+                    "value": "nav__submenu-svg"
+                  },
+                  "ancestorClass": {
+                    "value": "nav__submenu-btn user_menu_item collapsed",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>nav>div>div>div>a>svg",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "width": {
+                    "isCustom": true,
+                    "value": "10",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "height": {
+                    "isCustom": true,
+                    "value": "6",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "viewBox": {
+                    "isCustom": true,
+                    "value": "0 0 10 6",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "xmlns": {
+                    "isCustom": true,
+                    "value": "http://www.w3.org/2000/svg",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "041fdb2b-b818-4634-b293-94572ea0de0a",
+      "name": "menu_tiktok_followers",
+      "filePath": "8eff0846-e246-402f-a881-a424be9e199d.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Dashboard"
+              },
+              "url": {
+                "value": "https://everve.net/dashboard/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "nav__link ",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "task"
+                  },
+                  "ancestorClass": {
+                    "value": "nav__submenu collapse show",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>nav>div>div>div>div>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "TikTok Followers"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "https://everve.net/tasks/tiktok-followers/",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "06ff9f7f-ba58-40e0-80b2-d3a8c9d0468d",
+      "name": "menu_twitter_followers",
+      "filePath": "76acba93-e909-45fe-9c7c-b8f458a56eea.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "nav__link active",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "task"
+                  },
+                  "ancestorClass": {
+                    "value": "nav__submenu ",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>nav>div>div>div>div>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Twitter Followers"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "https://everve.net/tasks/twitter-followers/",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "35398eae-b35c-4317-b2ff-b3cbc4afa01a",
+      "name": "button_follow_profile_twitter",
+      "filePath": "62296dfd-1ba7-4c6c-b1dd-3222e1c03ae2.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "btn btn-xs btn-light",
+                    "excluded": false
+                  },
+                  "ancestorId": {
+                    "value": "NUtiVmtrWWNrWk4ydWtZWnkybG1ydz09",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "btn-group",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>table>tbody>tr>td>div>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Follow Profile"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "javascript:;",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "FgiXngHU2k3UXKwBPJOuHTEmAeAhjBQy3rjVEWDgM7fZ0dNdNDT5shMqwhJZX29qy();",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "id": {
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "7610bf8f-20e5-4261-9e8f-3af1667f950d",
+      "name": "button_next",
+      "filePath": "414610aa-7f3c-4d04-a8bf-d14b25be6e07.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn btn-block btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "next_button",
+                    "excluded": false
+                  },
+                  "ancestorClass": {
+                    "value": "card-body tx-13",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>div>div>div>div>div>div>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Next",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "manual_next_order();",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "margin-top: 20px;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "2491656c-699c-4696-a911-f992e16f8e27",
+      "name": "alert_error_follow_twitter",
+      "filePath": "1446b1c2-e5ea-4687-bad1-de0d2908977e.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "DIV"
+                  },
+                  "class": {
+                    "value": "jq-toast-single jq-has-icon jq-icon-error"
+                  },
+                  "ancestorClass": {
+                    "value": "jq-toast-wrap",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "You does not completed task",
+                    "excluded": true,
+                    "operator": "startWith"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "text-align: left;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "9c38b3e2-3d6e-491a-b741-401238c1a0dd",
+      "name": "alert_success_follow_twitter",
+      "filePath": "59868f81-ce0c-437f-8545-924a0b0064a1.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "DIV"
+                  },
+                  "class": {
+                    "value": "jq-toast-single jq-has-icon jq-icon-success"
+                  },
+                  "ancestorClass": {
+                    "value": "jq-toast-wrap",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "You have successfully completed task.",
+                    "excluded": true,
+                    "operator": "startWith"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "text-align: left;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "7c723ce2-3752-40b5-b774-f36618821e50",
+      "name": "button_next_error",
+      "filePath": "b6ca5f98-6451-490f-b4aa-2a4475c4fb4e.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn btn-block btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "next_report_button",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "btn-group btn-block",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Next"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "manual_next_order();",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "margin-top: 8px;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "85218aad-2975-4975-aff9-e60284f356a3",
+      "name": "status_spinner_border_text_secondary",
+      "filePath": "7e3e86cb-0506-4e7f-8896-480a39aa5f82.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "[22] Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "DIV"
+                  },
+                  "class": {
+                    "value": "spinner-border text-secondary"
+                  },
+                  "ancestorId": {
+                    "value": "perform_preloader"
+                  },
+                  "ancestorClass": {
+                    "value": "text-center",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "role": {
+                    "isCustom": true,
+                    "value": "status",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "margin-top: 20px;margin-bottom: 20px;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c3a5896-f5ef-4382-a012-9a7ad7533d95",
+      "name": "button_follow_profile_tiktok",
+      "filePath": "086936c1-a850-4f67-a140-fa84b55b5e1e.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/tiktok-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "btn btn-xs btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "SU56RUI5VDR1QXhkRFQ5VlpOQXhtdz09",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "btn-group",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>table>tbody>tr>td>div>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Follow Profile"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "javascript:;",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "FZ40qvv2is0ccgpiEepDDukDqMz1gYAvCw0ddPmP2doHxpyl1lirRtJpp3xp5e45s();",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "349fd10c-6a22-492b-bcb2-16d97aaa8443",
+      "name": "button_next_tiktok",
+      "filePath": "54cbf3a9-f566-4cba-8b85-de8efa6733b4.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/tiktok-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn btn-block btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "next_button"
+                  },
+                  "ancestorClass": {
+                    "value": "card-body tx-13",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>div>div>div>div>div>div>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Next",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "manual_next_order();",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "margin-top: 20px;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "daaf345f-c8cf-44ac-9d23-5f77b7fe99e4",
+      "name": "button_next_error_tiktok",
+      "filePath": "71532c0b-c2de-4c31-80dc-6d3c0dfdc546.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/tiktok-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn btn-block btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "next_report_button"
+                  },
+                  "ancestorClass": {
+                    "value": "btn-group btn-block",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>div>div>div>div>div>div>div>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Next"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "manual_next_order();",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "margin-top: 8px;",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "57fac180-82a4-457f-81d3-cdb64f9c69af",
+      "name": "id_follow_twitter",
+      "filePath": "5bdd246f-342f-485e-af1b-5b7fc5a176c8.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/twitter-followers/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "SMALL"
+                  },
+                  "class": {
+                    "value": "tx-12 tx-color-03 mg-b-0",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "WUE1MWZ2VUd6a2NyNGVncVExQm9mdz09",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "pd-l-10",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>table>tbody>tr>td>ul>li>div>small",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "ID 2558541",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "color: var(--text-color3);",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "2759beab-93a3-4d77-96f8-61a918e5c2fb",
+      "name": "button_a_view_website",
+      "filePath": "0ad6bcde-879b-404c-9496-11267b283f1c.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/traffic-exchange/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "btn btn-xs btn-light",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "RDNIeTk4VEJlbGVOVGRxQ1pUS2hxQT09"
+                  },
+                  "ancestorClass": {
+                    "value": "btn-group",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>table>tbody>tr>td>div>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "View Website"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "javascript:;",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "onclick": {
+                    "isCustom": true,
+                    "value": "FIH34ubY6tsvJRJ06NZFqyJnnu1jfFOJ61TLfsBCVTdiCVrwbUgi4DDWJWr8F9wC4();",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "05bfadde-96e3-4b88-a621-058c98883a43",
+      "name": "td_no_data_available_in_table",
+      "filePath": "3ae3a630-7dab-4830-a1ae-b63a5af0a98b.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Everve | Perform Tasks"
+              },
+              "url": {
+                "value": "https://everve.net/tasks/traffic-exchange/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "TABLE"
+                  },
+                  "id": {
+                    "value": "tasks_list_table",
+                    "excluded": true
+                  },
+                  "class": {
+                    "value": "table data-table dataTable no-footer dtr-inline",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "tasks_list_table_wrapper",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "dataTables_wrapper no-footer",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>main>div>div>div>div>table",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "rowCount": {
+                    "isCustom": true,
+                    "value": "2",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "columnCount": {
+                    "isCustom": true,
+                    "value": "3",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "style": {
+                    "isCustom": true,
+                    "value": "width: 100%; margin-left: 0px; margin-right: 0px; border: 1px solid var(--border-color2);",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "role": {
+                    "isCustom": true,
+                    "value": "grid",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "TD"
+                      },
+                      "class": {
+                        "value": "dataTables_empty",
+                        "excluded": true
+                      },
+                      "ancestorId": {
+                        "value": "tasks_list_table",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "odd",
+                        "excluded": true
+                      },
+                      "isLeaf": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "cssSelector": {
+                        "value": "body>main>div>div>div>div>table>tbody>tr>td",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "No data available in table",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "2",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      },
+                      "rowName": {
+                        "isCustom": true,
+                        "value": "No data available in table",
+                        "operator": "equals",
+                        "excluded": true
+                      },
+                      "valign": {
+                        "isCustom": true,
+                        "value": "top",
+                        "operator": "equals",
+                        "excluded": true
+                      },
+                      "colspan": {
+                        "isCustom": true,
+                        "value": "3",
+                        "operator": "equals",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
