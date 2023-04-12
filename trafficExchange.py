@@ -6,6 +6,7 @@ import threading
 
 idList = []
 idClikedList = []
+isStop = False
 
 # def createTab(browser, idStr):
 #     newTab = browser.new_tab("https://everve.net/tasks/traffic-exchange/")
@@ -35,6 +36,7 @@ idClikedList = []
 #         newTab.close()
 
 def newTrafficTab(event, browser, idStr):
+
     global idClikedList
 
     print('START TAB '+idStr)
@@ -72,11 +74,13 @@ def newTrafficTab(event, browser, idStr):
             print('\nexit wait')
             print('\nClosing thread')
             idClikedList.append(id.get_text())
+            event.clear()
             return True
         else:
             newTab.close()
             print('\nInvalid...')
             print('\nClosing thread')
+            event.clear()
             return False
 
         # print('test id'+btn.find_element_by_xpath('//parent::tr[contains(@class, "table_row")]').find_element_by_xpath('//small').get_text())
@@ -89,25 +93,30 @@ def newTrafficTab(event, browser, idStr):
         print(e)
         print('\nClosing thread')
         newTab.close()
+        event.clear()
         return
-
-    print('----------------------')
+    finally:
+        print('----------------------')
 
 def trafficExchange():
+    global isStop
     idElList = []
+    idList = []
     initTab = cc.chrome.open("https://everve.net/tasks/traffic-exchange/")
     idElList = initTab.find_elements_by_xpath('//tr[contains(@class, "table_row")][not(contains(@style, "none"))]//small')
-    print('NUmber of ID found : ',len(idElList))
+    print('\nNUmber of ID found : ',len(idElList))
     if len(idElList) < 1:
-        print('Not found any ID')
+        print('\nNot found any ID')
+        isStop = True
         return
 
     for i in range(0, len(idElList)):
        idList.append(idElList[i].get_text())
+    
     event = threading.Event()
+    event.clear()
     for id in idList:
-        # threading.stack_size(100000)
-        thread = threading.Thread(target=newTrafficTab, args=(event, initTab.browser, id))
+        thread = threading.Thread(target=newTrafficTab, args=(event, initTab.browser, id),daemon=True)
         # thread.
         thread.start()
         # thread.join()
@@ -115,7 +124,7 @@ def trafficExchange():
     isFinish = False
     while not isFinish:
         aliveThreads = threading.enumerate()
-        print('Alive threads: ',len(aliveThreads))
+        print('\nAlive threads: ',len(aliveThreads))
         time.sleep(1)
         if(len(aliveThreads) < 2):
             isFinish = True
@@ -126,25 +135,30 @@ def trafficExchange():
             if(idx == 0):
                 continue
             if not "everve.net/tasks/traffic-exchange" in tab.url:
-                print('Closing tab: ',tab.url)
+                print('\nClosing tab: ',tab.url)
                 tab.close()
         
         for idx, tab in enumerate(initTab.browser.tabs):
             if "everve.net/tasks/traffic-exchange" in tab.url:
-                print('Next click tab: ',tab.url)
+                print('\nNext click tab: ',tab.url)
                 # tab.wait_appear(locator.everve.button_next,{"name":"test"},30)
                 if tab.is_existing(locator.everve.button_next):
                     tab.find_element(locator.everve.button_next).click()
                 else:
-                    print('Not found locator.everve.button_next :', tab.url)
-                print('Closing tab: ',tab.url)
+                    print('\nNot found locator.everve.button_next :', tab.url)
+                print('\nClosing tab: ',tab.url)
                 time.sleep(1)
                 tab.close()
 
-        trafficExchange()
+        threading.Event().clear()
+        threading.Event().set()
+        return
 
 def initTrafficExchange():
     global idList, idClikedList
-    trafficExchange()
+    while True:
+        if(isStop):
+            return
+        trafficExchange()
 
 initTrafficExchange()
