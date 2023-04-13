@@ -18,4 +18,8 @@ def main():
         print('\n-----------')
 
 if __name__ == "__main__":
-    main()
+    idList = [1,2,3,9,1,4,5]
+    blackList = [3,4,1,7,9,12,13,15]
+    exceptList = list(set(idList) - set(list(set(idList) - set(blackList))))
+    print(exceptList)
+

@@ -8,42 +8,15 @@ idList = []
 idClikedList = []
 isStop = False
 
-# def createTab(browser, idStr):
-#     newTab = browser.new_tab("https://everve.net/tasks/traffic-exchange/")
-#     try:
-#         id = newTab.find_element_by_xpath('//small[contains(@class, "tx-12 tx-color-03 mg-b-0")][text()="'+idStr+'"]')
-#         print('+ Has found '+id.get_text())
-
-#         # row = id.find_element_by_xpath('//parent::tr[contains(@class, "table_row")]')
-#         row = id.find_element_by_xpath('.//ancestor::tr')
-
-#         # btn = row.find_element(locator.everve.button_a_view_website)
-#         # btn = row.find_element_by_xpath('//a[contains(@class, "btn btn-xs btn-light")][text()="View Website"]')
-#         btn = row.children[2].children[0]
-
-#         # btn.click()
-#         idClikedList.append(id.get_text())
-#         print('+ Btn '+id.get_text()+' : clicked')
-#         time.sleep(2)
-        
-#         # print('test id'+btn.find_element_by_xpath('//parent::tr[contains(@class, "table_row")]').find_element_by_xpath('//small').get_text())
-#         print('+ Test '+btn.parent.parent.children[0].children[0].children[0].children[1].children[1].get_text())
-
-#         # hideIcon = id.find_element_by_xpath('//parent::tr[contains(@class, "table_row")]')
-#         # hideIcon = hideIcon.find_element_by_xpath('//i[contains(@class, "far fa-eye-slash")]')
-#     except Exception as e:
-#         print('+Error:'+e)
-#         newTab.close()
-
 def newTrafficTab(event, browser, idStr):
 
     global idClikedList
 
     print('START TAB '+idStr)
-    # if idStr in idClikedList:
-    #     print('+ ID clicked '+idStr)
-    #     print('----------------')
-    #     return
+    if idStr in idClikedList:
+        print('\n+ ID clicked '+idStr)
+        print('\n----------------')
+        return
     
     # createTab(browser, idStr)
     try:
@@ -56,7 +29,7 @@ def newTrafficTab(event, browser, idStr):
 
     try:
         id = newTab.find_element_by_xpath('//small[contains(@class, "tx-12 tx-color-03 mg-b-0")][text()="'+idStr+'"]')
-        print('+ Has found '+id.get_text())
+        print('\n+ Has found '+id.get_text())
 
         # row = id.find_element_by_xpath('//parent::tr[contains(@class, "table_row")]')
         row = id.find_element_by_xpath('.//ancestor::tr')
