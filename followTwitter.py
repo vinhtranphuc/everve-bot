@@ -20,8 +20,10 @@ def doFollow(twitterTab):
         else:
             if twitterTab.is_existing(locator.everve.twitter.span_yes_view_profile):
                 twitterTab.find_element(locator.everve.twitter.span_yes_view_profile).click()
-                twitterTab.wait_appear(locator.everve.twitter.button_follow_main)
-                twitterTab.find_element(locator.everve.twitter.button_follow_main).click()
+                # twitterTab.wait_appear(locator.everve.twitter.button_follow_main)
+                if(not twitterTab.is_existing(locator.everve.twitter.button_following,3)):
+                    twitterTab.find_element(locator.everve.twitter.button_follow_main).click()
+                print('Dectect following ...')
             else:
                 if twitterTab.is_existing(locator.everve.twitter.button_following):
                     print('twitter.button_following: detected')
