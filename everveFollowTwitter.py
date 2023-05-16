@@ -11,10 +11,7 @@ def initFollowTwitter():
     global isRefreshFollowTwitter, isStopFollowTwitter, idFollowTwitterBlackList
     isSkip = False
     everveTab = cc.chrome.open("https://everve.net/tasks/twitter-followers/")
-    # everveTab.activate()
-    # everveTab.wait_appear(locator.everve.menu_open_perform_tasks)
-    # everveTab.find_element(locator.everve.menu_open_perform_tasks).click()
-    # everveTab.find_element(locator.everve.menu_twitter_followers).click()
+
     time.sleep(1)
     def followTwitter(i):
         print('-----START ACTION : %d----------'%i)
@@ -40,9 +37,7 @@ def initFollowTwitter():
         if twitterTab is nullcontext:
             print('cannot find twitter tab')
             print('Follow %d : Failed'%i)
-            # if(everveTab.find_elements_by_xpath('//tr[contains(@class, "table_row")][not(contains(@style, "none"))]').get_size() < 1):
-            #     isStopFollowTwitter = True
-            #     return
+
             if everveTab.is_existing(locator.everve.button_next):
                 everveTab.find_element(locator.everve.button_next).click()
             else:
@@ -82,16 +77,10 @@ def initFollowTwitter():
                 everveTab.find_element(locator.everve.button_next_error).click()
                 print('button_next_error: clicked')
                 print('Follow %d : Failed'%i)
-                # if(isFollowing):
-                #     idFollowTwitterBlackList.append(idFollow)
 
         print('-----END ACTION : %d----------'%i)
         return
 
-    # for i in range(1,10000):
-    #     if(isStopFollowTwitter):
-    #         break
-    #     followTwitter(i)
     i = 0
     while True:
         i += 1
